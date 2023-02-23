@@ -152,6 +152,12 @@ p {
   word-spacing: 1.5px;
 }
 
+li {
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 1.5px;
+}
+
 header.navbar {
   display: flex;
   background-color: #487eb0;
@@ -184,19 +190,20 @@ header.navbar {
 }
 
 .container {
-  /* border: 1px solid blue; */
   width: 80%;
   padding: 60px 0px;
   margin: auto;
 }
 
 section {
-  /* border: 1px solid green; */
-  margin-top: 50px;
+  margin-top: 80px;
+}
+
+.skills {
+  padding-top: 80px;
 }
 
 .home {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -251,4 +258,55 @@ section {
 
 .about-right button:hover {
   background-color: #0097e6;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.title-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skill-type {
+  display: flex;
+  gap: 50px;
+}
+
+.softskill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #0097e6;
+  border-radius: 10px;
+  flex: 50%;
+  gap: 30px;
+}
+
+.list-softkill {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hardskill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #0097e6;
+  border-radius: 10px;
+  flex: 50%;
+  gap: 30px;
+}
+
+.list-hardskill {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
